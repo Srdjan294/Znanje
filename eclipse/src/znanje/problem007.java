@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class problem007 {
 	
-	// 3. Izraèunati kvadrat upisanog broja.
+	// 3. Izracunati kvadrat upisanog broja.
 	
 	public static void main(String[] args) {
 		
