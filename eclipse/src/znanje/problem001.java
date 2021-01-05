@@ -13,6 +13,8 @@ public class problem001 {
 //		int a = input.nextInt();               //uèitaj broj
 //		
 //		System.out.println("Broj je: " + a);   //ispis broja
+//		
+//		input.close();
 		
 		// 2. varijanta
 		
@@ -22,6 +24,8 @@ public class problem001 {
 		int a = input.nextInt();                //uèitaj broj
 		
 		System.out.println("Broj je: " + a);    //ispis broja
+		
+		input.close();
 	}
 
 }
