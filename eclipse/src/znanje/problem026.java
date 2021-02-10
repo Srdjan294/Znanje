@@ -11,9 +11,9 @@ public class problem026 {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Unesi vrijednost stranice kocke: ");
-		int a = input.nextInt();
+		float a = input.nextFloat();
 		
-		double o = 12*a;
+		float o = 12*a;
 		
 		System.out.println("Opseg kocke je: " + o);
 		
