@@ -3,10 +3,9 @@ package znanje;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Problem044 {
+public class Problem045 {
 	
-	// 20. Napisati program za izraèunavanje površine trokuta 
-	//     koristeæi Heronovu formulu
+	// 21. Uèitati stranice trokuta i naæi opseg i površinu.
 	
 	public static void main(String[] args) {
 		
@@ -24,7 +23,9 @@ public class Problem044 {
 		
 		double p = Math.sqrt((s*(s-a)*(s-b)*(s-c))); //Heronova formula
 		
-		System.out.println("Površina trokuta je: " + p);
+		double o = a+b+c;
+		
+		System.out.println("Opseg trokuta je: " + o + ", površina trokuta je: " + p);
 		
 		input.close();
 	}
