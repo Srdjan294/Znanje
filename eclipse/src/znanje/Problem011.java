@@ -20,6 +20,8 @@ public class Problem011 {
 		suma = a+c;
 		razlika = c-a;
 		
+		System.out.println("Uneseni brojevi su: "+a+", "+b+" i "+c);
+		
 		System.out.println("Suma prvog i treæeg je: " + suma + ", a razlika treæeg i prvog je: " + razlika);
 		
 		input.close();
