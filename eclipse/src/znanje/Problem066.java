@@ -1,7 +1,6 @@
 package znanje;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.Locale;
 import java.util.Scanner;
 
