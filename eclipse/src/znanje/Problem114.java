@@ -32,10 +32,10 @@ public class Problem114 {
 					int d = (a/10)%10;
 					int j = a%10;
 					System.out.println(a + " - znamenke: \n"
-										+ "tisuæice" + t + "\n"
-										+ "stotice: " + s + "\n"
-										+ "desetice: " + d + "\n"
-										+ "jedinice: " + j);
+										+ "tisuæice: " + t*-1 + "\n"
+										+ "stotice: " + s*-1 + "\n"
+										+ "desetice: " + d*-1 + "\n"
+										+ "jedinice: " + j*-1);
 				}else {
 					System.out.println("Niste unijeli èetveroznamenkasti broj.");
 				}
