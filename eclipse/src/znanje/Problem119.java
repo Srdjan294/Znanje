@@ -27,7 +27,7 @@ public class Problem119 {
 				System.out.println("Treæi broj: ");
 				x[1] = input.nextInt();
 				
-				as = (as + x[1]) / 2;
+				as = (as + x[1]) / 3;
 				
 				System.out.println("Aritmetièka sredina brojeva " + x[0] + ", " + s + ", " + x[1] + " je " + as);
 			
