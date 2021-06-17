@@ -15,7 +15,7 @@ Scanner input = new Scanner(System.in);
 		
 			try {
 				int[] x = new int[3];
-				System.out.println("Unesite tri cijela broja: ");
+				System.out.println("Unesite èetiri cijela broja: ");
 				System.out.println("Prvi broj: ");
 				x[0] = input.nextInt();
 				
